@@ -37,8 +37,10 @@ It showcases three different asynchronous styles:
 # How to Run
 Run the Callback version:
 - npm run callback
+  
 Run the Promise version:
 - npm run promise
+  
 Run the Async/Await version:
 - npm run async
 
