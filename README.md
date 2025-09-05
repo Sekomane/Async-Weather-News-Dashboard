@@ -1,15 +1,15 @@
-# 🌦️ Async Weather & News Dashboard
+#  Async Weather & News Dashboard
 
 This project demonstrates **asynchronous programming** in Node.js + TypeScript by fetching **weather data** (from [Open-Meteo](https://open-meteo.com/)) and **news headlines** (from [DummyJSON](https://dummyjson.com/)).  
 
 It showcases three different asynchronous styles:
-- ✅ **Callbacks**  
-- ✅ **Promises** (with `Promise.all` & `Promise.race`)  
-- ✅ **Async/Await** (with `try...catch`)  
+-  **Callbacks**  
+-  **Promises** (with `Promise.all` & `Promise.race`)  
+-  **Async/Await** (with `try...catch`)  
 
 ---
 
-## 📌 Features
+##  Features
 - Fetches **city coordinates** (latitude, longitude) from Open-Meteo Geocoding API  
 - Fetches **current weather** (temperature °C) from Open-Meteo Forecast API  
 - Fetches **sample news headlines** from DummyJSON Posts API  
@@ -24,7 +24,7 @@ It showcases three different asynchronous styles:
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 1. Clone this repo:
    ```bash
@@ -34,7 +34,7 @@ It showcases three different asynchronous styles:
 2. Install dependencies:
    npm install
 
-#How to Run
+# How to Run
 Run the Callback version:
 - npm run callback
 Run the Promise version:
